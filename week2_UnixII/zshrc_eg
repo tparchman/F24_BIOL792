@@ -1,0 +1,8 @@
+# simplest zshrc profile starter
+# useful alias collection for safer file operations
+
+alias ll="ls -laF"
+alias ls="ls -f"
+alias rm="rm -i"
+alias mv="mv -i"
+alias cp="cp -i"
