@@ -6,7 +6,7 @@
 Fall 2024   
 BIOL 792 - 1028   
 **Prof**: Dr. Thomas Parchman; SFB 209; tparchman@unr.edu   
-Class: Tuesday/Thursday 6:00 – 7:10 pm FH 106  
+Class: Tuesday/Thursday 6:00 – 7:10 pm EMM 112  
 Office Hours: By appointment    
 
 
@@ -16,7 +16,7 @@ Modern Biology is increasingly shaped by data sets that are orders of magnitude 
 
 ## Student Learning Outcomes
 By the end of the semester, students should have learned enough to
-start working more confidently with Unix and Python. We will emphasize tools often used in genomics and bioinformatics, but the applications learned will apply generally to data science. This course should also prepare students for the more advanced sister course, Data Science for Biology II, taught during spring semesters.
+start working more confidently with Unix and Python. We will emphasize tools often used in genomics and bioinformatics, but the applications learned will apply generally to data science. This course should also prepare students for the more advanced future courses.
 
 * Students will be able to operate in a Unix computing
      environment, and will understand the basic use of Unix computing
@@ -37,9 +37,10 @@ start working more confidently with Unix and Python. We will emphasize tools oft
   Mac computers already have machines running Unix and
   are ready to go. Same goes for students running Linux (Ubuntu, Centos, etc.). Students using computers running a windows OS or will need to figure out how to install Linux or a Linux emulator on their machine. 
 
-* **Supplemental primers, readings and assignments** will be announced during the class and provided on the [course github page](https://github.com/tparchman/F24_BIOL792_coursepage).
+* **Supplemental primers, readings and assignments** will be announced during the class and provided on the [course github page](https://github.com/tparchman/F24_BIOL792).
 
 * **Practical computing for biologists (*Optional*)** Haddock, S.H.D. and Dunn, C.W., 2011. Sunderland, MA, USA: Sinauer Associates. The book provides an excellent guide to the much of content of the course, is filled with excellent examples and problems, and will also be utilized in Data Science for Biology II during spring semesters.
+
 
 ## Course Format
 We will meet twice a week (Tues/Thurs 6:00-7:15) but I typically reserve extra time during each window to allow discusion/troubleshooting on coding related to assignments and independent projects. At the beginning of each class, I will introduce new concepts and material that will form the basis of the exercises, assignments, or projects we will work through that week. We will cover questions regarding previous material, and then you will spend at least half of each class working independently, or in small groups, on writing code. All students should come to class having thoroughly read the assigned material and prepared to try new coding exercises. 
