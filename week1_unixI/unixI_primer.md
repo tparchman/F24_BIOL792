@@ -60,10 +60,6 @@ Text editors for working with data or programming fill several necessities for d
 
 - Line endings are encoded differently for different files from different operating systems, and this can represent a stumbling block during the first weeks of learning to manipulate data with Unix and Python. Read pages 13-14 of Haddock and Dunn carefully to understand this issue, and for a quick fix in TextWrangler. We will always want to be working with Unix line endings
 
-Example syntax highlighting (note this is Perl, not Python or unix)
-
-![syntax_image](https://github.com/tparchman/BIOL792/tree/master/images/syntax_eg.png)
-
 
 
 ## 5. Unix first steps: getting set with the terminal
@@ -140,10 +136,7 @@ To remove that same directory
 
 ## 7. Unix directory tree
 
-The Unix directory tree is heirarchical, sensible, and simple to navigate. The more you use your terminal to navigate your file system, the more you will realize how much time you waste using your mouse and an application such as finder or windows explorer. Eventually you will accept the fact that the terminal is a much much faster way to move around your system, and will hopefully make that transition in the name of efficiency. The Unix file system:
-
-![unixtree](https://github.com/tparchman/BIOL792/tree/master/images/unixtree.png)
-
+The Unix directory tree is heirarchical, sensible, and simple to navigate. The more you use your terminal to navigate your file system, the more you will realize how much time you waste using your mouse and an application such as finder or windows explorer. Eventually you will accept the fact that the terminal is a much much faster way to move around your system, and will hopefully make that transition in the name of efficiency. 
 
 root is the top of the tree, all other directories reside within root. You can move to root anytime by:
 
