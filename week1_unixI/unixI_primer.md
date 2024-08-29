@@ -183,7 +183,7 @@ For this course, downloading individual files might suffice. But if you would li
 **hint:** make a directory somewhere on your computer for this course. Run below command in that directory.
 
 ```
-git clone https://github.com/tparchman/F23_BIOL792
+git clone https://github.com/tparchman/F24_BIOL792
 ```
 
 **note:** I will be updating the course on a near weekly basis. Thus, you will likely want to update this directory using additional `git` commands. We will cover `git` in depth later in this course during a module focused on version control and data accessibility.
@@ -191,7 +191,7 @@ git clone https://github.com/tparchman/F23_BIOL792
 
 ## To prepare for next week and beyond:
 
-- quick guides to basic Unix commands can be found in [Appendix 2](https://github.com/tparchman/BIOL792/blob/master/unix_resources/Haddock_and_Dunn_quickguide_Appendices.pdf) of Haddock and Dunn and the course page has numerous 'cheat 'sheets' under unix_resources, such as this [unix cheat sheet](https://github.com/tparchman/BIOL792/blob/master/unix_resources/unix_cheat_sheet.pdf). These will be extremely useful.
+- quick guides to basic Unix commands can be found in Appendix 2 of Haddock and Dunn and the course page has numerous 'cheat 'sheets' under unix_resources. These will be extremely useful.
 
 - Useful primer from "Unix and Perl to the Rescue", by Bradnam and Korf. For this course, the [unix_primer](http://korflab.ucdavis.edu/Unix_and_Perl/current.html) is hard to beat. Please bookmark this and get familiar with part 1 and part 2.
 
