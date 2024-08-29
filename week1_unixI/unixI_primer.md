@@ -27,18 +27,17 @@ For the first section of the course, we will have weekly Unix worksheets or assi
 
 If you have an apple computer, you already own a unix machine. Just go into the Utilities directory, within the Application directory, and you will find the Terminal app. I suggest dragging that to your dock or wherever you organize applications you use frequently. 
 
-If you use a windows computer, a bit of adjustment will be necessary, but you have several options. You can Install Cygwin — this provides a Linux-like environment on your PC (but this is less than ideal). Alternatively, and preferably, you can  install ubuntu linux alongside or within your windows operating system. **Appendix 1** of Haddock and Dunn explains in general detail how to install ubuntu linux on an windows operating system using a virtual machine, but these instructinos are pretty dated. Here are a few resources for installing Ubuntu:
+If you use a windows computer, a bit of adjustment will be necessary, but you have several options. You can Install Cygwin — this provides a Linux-like environment on your PC (but this is less than ideal). Alternatively, and preferably, you can  install ubuntu linux alongside or within your windows operating system. **Appendix 1** of Haddock and Dunn explains in general detail how to install ubuntu linux on a windows operating system using a virtual machine, but these instructinos are pretty dated. Below are a few resources for installing Ubuntu. **Very important notes:** For `ubuntu` and `mint`, install instructions will involve creating a boot disk from a USB drive, and the instructions you can find below are quite clear on this..  If you would like to keep your windows OS in place (which I presume for most of you), for `ubuntu` or `mint` you will want to choose `install alongside current operating system`. This way your windows OS will be fine, but you will be able to run linux alongside it. **I would suggest that it is critical that you back up everything you would like backed up on your system before you do this, to be sure that you don’t accidentally wipe windows off of your computer (which could happen if you chose to erase drives and install ubuntu or mint).**
 
 - [install ubuntu desktop](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview)
 
+- [linux mint](https://linuxmint-installation-guide.readthedocs.io/en/latest/) If you go with linux mint, I suggest the cinnamon version that is fully capable.
 
 - [Windows Subsystem for Linux (WSL)](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-11-with-gui-support#1-overview)
 
 Other option, but less than ideal:
 
 - [install git-bash](https://www.atlassian.com/git/tutorials/git-bash#:~:text=What%20is%20Git%20Bash%3F,operating%20system%20through%20written%20commands) GitBash is easy to install and get working. However, the full ubuntu linux install would be much preferable. GitBash has most of the functionality of linux but not all, thus a full ubuntu linux install would be preferable. 
-
-
 
 
 For a brief history of Unix and its significance, as well as an alternative introduction to basic commands and ideas, see [Unix primer](https://github.com/tparchman/BIOL792/blob/master/unix_resources/unix_buerkle_guide.pdf) written by Alex Buerkle at University of Wyoming. This is **highly recommended** reading.
@@ -187,7 +186,7 @@ For this course, downloading individual files might suffice. But if you would li
 git clone https://github.com/tparchman/F23_BIOL792
 ```
 
-**note:** I will be updating the course on a near weekly basis. Thus, you will likely want to update this directory using additional `git` commands
+**note:** I will be updating the course on a near weekly basis. Thus, you will likely want to update this directory using additional `git` commands. We will cover `git` in depth later in this course during a module focused on version control and data accessibility.
 
 
 ## To prepare for next week and beyond:
