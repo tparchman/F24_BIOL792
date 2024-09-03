@@ -280,18 +280,18 @@ Since fastq files have a standard four line format (ID starting with @, DNA sequ
 
 We could write all of teh ID lines to a separate file:
 
-$ grep "^@" -c sample_passerina.fastq > idlines.txt
+    $ grep "^@" -c sample_passerina.fastq > idlines.txt
 
 We can cound the number of sequences:
 
-$ grep "^@" -c sample_passerina.fastq
+    $ grep "^@" -c sample_passerina.fastq
 
 We can print the line with a match, plus any number of lines following it:
 
-grep "^@" -A 1 sample_passerina.fastq
+    $ grep "^@" -A 1 sample_passerina.fastq
 
 SDN_AM_43432 is the ID of a specific bird represented in this data set. How many DNA sequences do we have for this bird?
 
-$ grep "SDN_AM_43432" -c sample_passerina.fastq
+    $ grep "SDN_AM_43432" -c sample_passerina.fastq
 
 

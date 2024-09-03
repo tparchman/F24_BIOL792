@@ -15,7 +15,7 @@ http://korflab.ucdavis.edu/Unix_and_Perl/current.html
 
 **From here on record the commands you used for each exercise with a brief description of what it did in a file (yourlastname_unix2.txt), and keep that file in ~/BIOL792/
 
-**Starting next week (Unix 3)**, we MIGHT have you turn in a notes.txt file with your Unix commands and your explanation of how they worked. This will be a way for us to keep track assignment completion. It will also help me get an idea of where you all might be having troubles, or where you are quickly figuring out how to be extra clever. Note, I will not be 'grading' assignments for correctness. Rather, I will be reviewing them for effort and insight into progress in the class generally.
+**Starting next week (Unix 3)**, I will have you turn in a notes.txt file with your Unix commands and your explanation of how they worked. This will be a way for us to keep track assignment completion. It will also help me get an idea of where you all might be having troubles, or where you are quickly figuring out how to be extra clever. Note, I will not be 'grading' assignments for correctness. Rather, I will be reviewing them for effort and insight into progress in the class generally.
 
 ## 2. Process monitoring and control, running jobs in the background.
 
@@ -52,7 +52,7 @@ Some useful Unix commands for extracting and organizing information from text, u
 
     $ sort feature_info.txt > sorted_feature_info.txt
 
-`uniq` will output the unique lines in a file. Lets say we just wanted a list of the categories of genomic features represented in the yeast_genome.gff file (contained in field 3). Note what happens if you pipe the output of `cut` straight into `uniq` without using `sort`.
+`uniq` will output the unique lines in a file. Lets say we just wanted a list of the categories of genomic features represented in the yeast_genome.gff file (contained in field 3). Note what happens if you pipe (using `|`) the output of `cut` straight into `uniq` without using `sort`.
 
     $ cut -f 3 yeast_genome.gff | sort | uniq
 
