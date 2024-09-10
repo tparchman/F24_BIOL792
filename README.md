@@ -10,7 +10,7 @@ Class: Tuesday/Thursday 6:00 – 7:10 pm FH 219
 Office Hours: By appointment    
 
 
-## Course Description
+## Course Description 
 Modern Biology is increasingly shaped by data sets that are orders of magnitude larger than most biologists are trained to work with. This is especially the case for the fields of genetics and genomics where major advances in DNA sequencing technology have cut the time and cost investment of DNA sequencing more than 100,000 fold. Spreadsheet software and graphical user interface statistical analysis packages (e.g., Excel, Statistica, JMP) are useless for this scale of data for any scientific discipline. This course will introduce students to basic computational tools (focusing on Unix and Python) to enhance data competency for modern biology. The course will involve hands on approaches and the manipulation and analysis of data collected for graduate student research projects as well as examples from genomic data sets generated in my lab. The course should provide a starting point for students to gain further expertise in simple programming and efficient manipulation and analysis of large-scale data. The tools to be learned in this class are not unique to genomics, and will be of value to research in any scientific field.  Prerequisites: must be enrolled as M.S. or Ph.D. student.
 
 
