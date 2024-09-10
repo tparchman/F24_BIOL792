@@ -9,6 +9,7 @@
 - permissions, file modes
 - pipes (`|`) and redirection (`>`,`>>`)
 - Interacting with remote machines
+- quickstart introduction to writing and executing shell scripts
 - From Haddock and Dunn: Chapters 5, 6 and 16
 
 <p>&nbsp;</p>
@@ -267,3 +268,5 @@ Two, you can change the file to executable, then run, as follows:
 
     $ chmod a+x firstbash.sh
     $ ./firstbash.sh
+
+I have added three simple shell scripts to the [week3](https://github.com/tparchman/F24_BIOL792/tree/main/week3_unixIII) directory on the course github page. Have a look at these, and play around with executing them ahead of next weeks meeting.

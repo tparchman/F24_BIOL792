@@ -24,7 +24,7 @@ Lets go back to the `sample_passerina.fastq` file you were working with last wee
 
     $ cat ....
 
-**1.B** Instead, we might want to just remove the first 4000 lines of sample_passerina.fastq. Look at the `man` page for `head`, and figure this out.
+**1.B** Instead, we might want to just extract the first 4000 lines of sample_passerina.fastq. Look at the `man` page for `head`, and figure this out.
 
     $
  
@@ -90,11 +90,8 @@ If you run:
 
 The dirsource directory will be made in the Deskop directory.
 
-**3.C.** Now use `rsync` to sync the dirsource and dirdestination directory. 
 
-    $
-
-**3.D.** Go into the dirsource directory and delete one of the files. Use `rsync` so that dirdestination mirrors dirsource. That is, so the file deleted in dirsource is now deleted in dirdestination. This will require you understanding how the `–-delete` command works.
+**3.C.** Go into the dirsource directory and delete one of the files. Use `rsync` so that dirdestination mirrors dirsource. That is, so the file deleted in dirsource is now deleted in dirdestination. This will require you understanding how the `–-delete` command works.
 	
     $
 
