@@ -116,7 +116,35 @@ If all is in order, "t is time to learn Python" should print to the screen, and 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-# 3. Additional resources to help with learning Python
+
+# 3. Working with scalars 
+
+Scalars are the first type of variable we will work with in python. They include:
+
+- **Integers**: whole numbers 
+    - 1
+    - 5
+    - 999999
+- **Floats**: : any number, with decimal, also referred to as“floating point”. 
+    - 11.23 
+    - 0.0222 
+    - 3 x 10-10 
+    - 3e12
+
+- **Strings**: sequence of text characters
+    - “ACGGGTTAACCCTTT”
+    - “Western Conference Finals”
+    - “3.14159 approximates Pi”
+
+- **Boolean**: True or False
+
+
+
+# 4. Additional resources to help with learning Python
+
+## Jupyter
+
+**Jupyter notebooks** offer a convenient format/interface for providing text in markdown that can alternate with active code boxes for running python. This is a great way to keep yourself organized as you learn python, although it does have some drawbacks (which we will get to later in the semester). Past experience tells me that jupyter notebooks work great for students as they are learning python, so I will strongly suggest that everyone gets comfortable with jupyter this week so it can be used if preferred. In the **jupyter_start** directory (under week5) you can find a tutorial for installing and using jupyter notebooks.
 
 ## Jupyter QtConsole (enhanced interactive prompt), and Spyder IDE
 
