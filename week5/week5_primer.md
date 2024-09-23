@@ -82,6 +82,18 @@ And run as follows:
 
     $ ./first_python.py
 
+## Accessing, testing, and writing python
+
+There are multiple options for writing or testing python code, you will learn each of these during this semester, and will learn which suit your needs best as time goes on.
+
+1. The python interpretter can be accessed in "interactive mode" from the terminal, by typing `python3`. This allows an efficient means of testing simple statements or doing simple things on the fly. This is **NOT** a good mechanism for writing much working code, and will not be used to write programs or code that you would generally want to document.
+
+2. You similarly access python in "interactive mode" using the Jupyter QtConsole, available in the anaconda navigator suite described at the bottom of this primer. This can be used much as the terminal can (it recognizes linux commands as well), but has enhanced abilities that will help you write and understand your code. Try it a bit this week, and you will understand how it may aid you. I would recommend this over the base interactive mode that you can activate from the linux terminal.
+
+3. Jupyter notebooks offer the ability to switch between blocks of markdown enhanced text (such as you are reading in these primers) and active python code blocks. Jupyter notebooks are excellent for teaching, and for learning, as you can keep detailed descriptions of what, how and why you are doing things, along with alternating code blocks that can be executed on the fly from within the notebooks. You will all learn to use jupyter notebooks, and as time goes on, will understand when or if they will be most useful for some of your needs.
+
+4. Python is written in stored as text in scripts with the `.py` extension as a custom. Scripts allow you to keep your code organized in one place, in executable format if desired, and allow you to organize code for different work as you deem useful. I will generally ask you to turn in your work for each week either in jupyter notebooks or in scripts (e.g., Parchman_hashpractice.py).
+
 ## Your first simple program, using a `print` statement.
 
 Sending information from your python scripts to stdout is accomplished with the `print` function. Our first script will simply illustrate how to print specified text, and will serve to convince you that this might not be as hard as you thought it was. Use `touch` to make a blank text file, but give it a `.py` extension as is customary for python scripts. This script needs only two simple parts. First, your customary first line that should go in all of your scripts, which should be:
@@ -117,7 +129,18 @@ If all is in order, "t is time to learn Python" should print to the screen, and 
 <p>&nbsp;</p>
 
 
-# 3. Working with scalars 
+# 3. Variable types in python
+
+Four types of ariables are used to store information in python:
+
+- Scalars: These can be of type integer, Float, String, or Boolean. Scalar variables store one 'thing'
+- Lists: are one dimensional arrays of scalars
+- Tuples: immutable lists
+- Dictionaries: associative arrays, or unordered sets of key:value pairs
+
+Variables can be named almost anyway you like. However, they can not start with a digit (e.g., 1dog) or with `$` or `#` (e.g., $stop, #pound), and they can not be among the 33 python3 keywords (see https://docs.python.org/3/library/keyword.html). Keywords are reserved for specific functionality in python, examples include `False`, `if`, `else`, `elif`, `import`, `for`, and `True`.
+
+## Scalars
 
 Scalars are the first type of variable we will work with in python. They include:
 
@@ -138,7 +161,50 @@ Scalars are the first type of variable we will work with in python. They include
 
 - **Boolean**: True or False
 
+Assigning variables in python is easy. You can name variables that store information any way you like. You may want to use a format that will allow you to recognize different types of variables, but the rules are flexible. Below, I am assigning a float to the variable Pi, an integer to the variable Place, and a string to the variable Team. 
 
+```python
+Pi = 3.14159
+Iteration = 5
+Team = "Bengals"
+DNAseq = "AAATCGTTGTCTGTGTG"
+```
+
+The `print` function, use first above, can be used anytime you would like to print a variable to screen (e.g., the terminal window)
+
+We will do more of this next week, but we can do math operations on integers and floats and the variables which they are assigned to. Note the code below will print 21.
+
+```python
+x = 7
+y = 3
+z = x * y
+print(z)
+```
+
+We can use the `.type` function to check the type of variable>
+
+```python
+type(x) ## will return int
+type(DNAseq) ## will return string
+```
+
+## Lists
+
+Lists store multiple scalars, of the same, or of different types. Lists are heavily used in python, as they are in other programming languages, and offer a variable type that can be iterated through with loops. 
+
+One dimensional lists can be hard coded as below. Note that print here is used to print the entire list.
+
+```python
+ColorList = ('blue', 'red', 'green', 'violet', 'orange')
+NumList = ('9', '83', '85', '11','52')
+print(NumList)
+```
+Individual list elements by the name of the list and the list index enclosed in brackets. The index of the first element is `0`.
+
+```python
+ColorList = ('blue', 'red', 'green', 'violet', 'orange')
+print(ColorList[1]) # will return red
+```
 
 # 4. Additional resources to help with learning Python
 
