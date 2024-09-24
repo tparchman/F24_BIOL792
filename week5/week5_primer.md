@@ -1,6 +1,6 @@
 # Why Python ?
 
-The idea of this course is to introduce biologists without any, or much, prior programming experience to a language that can be useful for their needs. The choice of the first programming language to learn may not be as important as you think; once you have learned one, learning others will be much much easier, and you are nearly guaranteed to utilize additional languages at some point in your career. Nonetheless, the two scripting languages that have been most heavily used in bioinformatics and data science are **Perl** and **Python**. I had primarily used **Perl** for my needs, and have taught this course with Perl in the past. However, given a general shift in usage trends and training opportunities, beginning this semester, Ive decided to shift to Python both for teaching and for research purposes. There are a number of reasons for this:
+One goal of this course is to introduce biologists without any, or much, prior programming experience to a language that can be useful for their needs. The choice of the first programming language to learn may not be as important as you think; once you have learned one, learning others will be much much easier, and you are nearly guaranteed to utilize additional languages at some point in your career. Nonetheless, the two scripting languages that have been most heavily used in bioinformatics and data science are **Perl** and **Python**. I had primarily used **Perl** for my needs, and have taught this course with Perl in the past. However, given a general shift in usage trends and training opportunities, beginning this semester, Ive decided to shift to Python both for teaching and for research purposes. There are a number of reasons for this:
 
 - It is one of the most common languages used in biology and other fields of science. Thus, you will be able to find a lot of documentation, guidance, examples, and opinion on the web (see useful resources at the bottom of this page).
 - It has excellent capabilities for manipulating text, suiting it well to bioinformatics and data science more generally.
@@ -15,7 +15,7 @@ The idea of this course is to introduce biologists without any, or much, prior p
 ## Topics to cover
 - installing/updating python
 - writing your first python script(s), `print` statements
-- working with strings and integers
+- introduction to variable types in python
 - Haddock and Dunn chapter 8, and first few pages of chapter 9
 
 # 1. Installing/updating to python 3 current version
