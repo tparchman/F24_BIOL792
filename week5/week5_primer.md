@@ -126,7 +126,6 @@ If all is in order, "t is time to learn Python" should print to the screen, and 
 
 
 <p>&nbsp;</p>
-<p>&nbsp;</p>
 
 
 # 3. Variable types in python
@@ -205,6 +204,31 @@ Individual list elements by the name of the list and the list index enclosed in 
 ColorList = ('blue', 'red', 'green', 'violet', 'orange')
 print(ColorList[1]) # will return red
 ```
+
+In the upcoming weeks you will get comfortable writing loops to execute the same code on every element of a list. When we do that you will start to learn that indents have strict rules in python code. Below is an example of a for loop that simply executes a print statement for each element in a list.
+
+```python
+ColorList = ('blue', 'red', 'green', 'violet', 'orange')
+for color in ColorList:
+    print(color) # note the indent. If the first line under for was not indented, and error message would come and this would not work.
+```
+
+## Dictionaries
+These are unordered associative arrays that consist of key value pairs. Because they are unordered, the offer a much faster way to store and retrieve information that comes in pairs of variables. We will learn much more about how to build and loop through dictionaries later this semester. They may feel weird at first, but dont let that stress you out. Eventually you will come to appreciate or even love them.
+
+Dictionaries are normally built on the fly with data read from files, but they can be hard coded for demonstration purposes as illustrated below.
+
+```python
+NameNumber = {
+'Jerry' : '784.4495',
+'Lee' : '784.1658',
+'Angie' : '784.4496',
+'Suzie' : '784.1555'
+}
+for key in NameNumber:
+...     print(key, ":", NameNumber[key]) 
+```
+
 
 # 4. Additional resources to help with learning Python
 
