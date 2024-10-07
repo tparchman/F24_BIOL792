@@ -15,7 +15,7 @@
 
 Note: Chapter 8 of Haddock and Dunn walks you through a number of very similar examples for working with DNA sequences.
 
-A. Get rid of everything other than the DNA sequence (using `str.replace`), and save this to another string.
+A. Get rid of everything other than the DNA sequence (e.g., using `str.replace`), and save this to another string.
 
 <p>&nbsp;</p>
 
@@ -43,7 +43,7 @@ A. Work with DNA_Seq above, which is currently a string. Often you will read in 
 B. Note that `.join` is the opposite of `str.split`, and can be used to turn an list back into a string. The syntax is a bit different for `.join`, where the delimiter must be specified before the `.`. This is a task you might routinely encounter. Use `.join` to turn the list you made above back into a comma delimited string.
 <p>&nbsp;</p>
 
-C. Lets go back to the list you made in A. Add the an additional list, specified below, to the end of the first list (essentially, concatenate the two DNA sequences together.
+C. Lets go back to the list you made in A. Add the an additional list, specified below, to the end of the first list (essentially, concatenate the two DNA sequences together).
 
     SeqList2 = ['A','T','A','T','A','T','A','T','A','T','A','T','A','T','A','T','A','T','A','T','A','T']
 
@@ -53,8 +53,6 @@ D. Make a new list that only contains the first 10 bases of the list you made in
 E. How long is the list now? Print the length of the list, but use an `if` statement to do this only if the length is greater than 8. Then try to double the 8 to 16, to verify that you can write `if` and `else` conditionals that are doing what you want.
 <p>&nbsp;</p>
 
-F. Print the final list in reverse order.  
-<p>&nbsp;</p>
 
 
 ## 3. Lets try something else with lists, `for`, and some conditional statements.
@@ -84,4 +82,14 @@ Hints:
 
 <p>&nbsp;</p>
 
-C. When we are printing straight to the screen, we refer to this is standard out. Often you will want that information, especially when there is a lot of it, written to a file instead. Rather than printing this output to the screen, use unix redirection (like you did before we started perl) to write the output to a file.
+C. When we are printing straight to the screen, we refer to this is standard out. Often you will want that information, especially when there is a lot of it, written to a file instead. You can write this information to a file in two ways. One, you could run your python script from the terminal and redirect the file to a new file, as below:
+
+    $ python python2_number3.py > listplay.txt
+
+Or you could write to a new file that you create in your python code. We will learn more about how to do this next week, but for now, look at the code below for a demonstration. The `sys` library must be imported, the file is made the with `open` function, which also initializes the `OUT` filehandle. Then the `OUT.write` call writes whatever you could like to write. Notice a line ending has been added, because unlike `print` , `.write` does not add line endings automatically.
+
+```py
+import sys
+OUT = open("outfile.txt", "w")
+OUT.write("Here is the data my python code processed \n")
+```
