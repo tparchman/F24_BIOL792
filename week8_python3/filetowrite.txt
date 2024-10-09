@@ -1,0 +1,7 @@
+First element is: WD1295, second element is carB 
+First element is: WD1298, second element is rpoD 
+First element is: WD1303, second element is rpoZ 
+First element is: WD1306, second element is mutL-1 
+First element is: WD1309, second element is sucA 
+First element is: WD1316, second element is ubiA 
+First element is: WD1318, second element is infB 
