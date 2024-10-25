@@ -44,8 +44,7 @@ Hints:
 2). You will need to process 2 lines each round through a for loop. We used regular expression conditional statements to do this last week; below is an example (more compact, useful for lines of data which you know come in pairs) of an efficient way to read two lines at a time in a for loop:
 
     for Line in IN:
-	    Line = Line.strip("\n")
-	    Fasta = Line
+	    Fasta = Line.strip("\n")
 	    Seq = IN.readline()
 	    Seq = Seq.strip("\n")
 
