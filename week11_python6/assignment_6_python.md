@@ -28,7 +28,38 @@ D. Now use a `for` loop to print out the dictionary in the same way as above, ex
 <p>&nbsp;</p>
 
 
+## II. A an additional dictionary challenge
 
+The `collections` module in Python is a built-in library that provides specialized container data types (lists and dictionaries) beyond the default list, dict, tuple, and set. It includes a variety of container types that are useful in different situations, offering more flexibility and functionality. There are multiple data containers that are used from `collections`. One of these would be especially useful for this problem, and it can be imported as below
 
+```Python
+
+from collections import defaultdict
+
+```
+
+`defaultdict` is a dictionary subclass that provides a default value for a nonexistent key. It can be used to start at 0 and count the number of times a value is changed for the same key, see example below.
+
+```Python
+dd = defaultdict(int)  # int() returns 0 by default
+ID_Ctr['a'] += 1
+print(ID_Ctr['a'])  # Output: 1
+print(ID_Ctr['b'])  # Output: 0 (since 'b' does not exist, it defaults to 0)
+```
+
+`sample_passerina.fastq` is Illumina sequencing data from a pooled genotyping-by-sequencing library for lazuli buntings (a bird species). There are 190 unique individual names, indicated on the lines that start with `@`, that look like `NVP_CY_48144`. There are many sequences per individual, and lets say we want to count the number of sequences generated for each individual. One way to do this would be to build a dictionary where the individual bird IDs are keys, and each time you hit a key that already exists, you add the value plus 1. Eg., Seq_Ctr[ID] =+ 1. This way, as you go through the file one ID line at a time, the ID can be specified as a dictionary key, and if that key already had a value (an integer in this case), you would add one. So, each time you encounter a value that already exists as a key, the value, which is a count, increases by one. When the dictionary is fully built, you could loop through it by key to print the bird ID and the number of times it occurs in the data, like below.
+
+```Python
+for thing in ID_Ctr.keys():
+	print(thing, ID_Ctr[thing]) 
+```
+
+Use `defaultdict` to build a dictionary that tracks the number of sequences for each individual with data in `sample_passerina.fastq`. Have the script print to screen, or write to a file, the IDs and counts of DNA sequences for each, as below.
+
+    SDC_CY_55115 22
+    NVP_CY_48142 51
+    NEB_CY_55154 34
+    NEW_AM_55139 37
+    WBA_AM_43425 26 
 
 
